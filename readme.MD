@@ -24,4 +24,10 @@ Para o desenvolvimento do módulo Custom_Hreflang eu utilizei como base o block 
 <h3>Como testar esse projeto?</h3>
 1. Clone o repositório para algum diretório escolhido no seu sistema de arquivos. O meu diretório se chamará <b>magento</b>.
 
-2. 
+2. Após clonar o repositório abra o mesmo no seu editor de preferência. Eu por exemplo uso o VsCode.
+
+3. Após abrir sua IDE, você deverá ir até o terminal e inserir o comando <b>docker-compose up -d</b>
+
+4. Assim que o Docker iniciar você deverá ir até a url magento.test e ai apertar, em conjunto, as teclas ctrl+u você verá como última tag do head a nossa meta tag criada.
+
+5. Você poderá trocar a store-view e verificará que cada store-view terá uma meta tag diferente.
