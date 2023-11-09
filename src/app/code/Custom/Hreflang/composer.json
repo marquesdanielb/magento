@@ -1,0 +1,17 @@
+{
+    "name": "custom/module-hreflang",
+    "description": "Add meta tag on CMS head pages",
+    "require": {
+        "php": "^8.1"
+    },
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Custom\\Hreflang\\": ""
+        }
+    }
+}

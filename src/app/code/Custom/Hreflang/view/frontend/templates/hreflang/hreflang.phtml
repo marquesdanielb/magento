@@ -1,0 +1,7 @@
+<?php
+/** @var \Custom\Hreflang\Block\Template $block */
+?>
+<?php $hreflangTags = $block->getHreflangTags(); ?>
+<?php foreach ($hreflangTags as $tag): ?>
+    <link rel="alternate" hreflang="<?= $tag['language'] ?>" href="<?= $tag['url'] ?>" />
+<?php endforeach; ?>
