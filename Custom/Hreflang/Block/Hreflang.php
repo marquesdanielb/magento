@@ -23,7 +23,6 @@ class Hreflang extends Template
     {
         $store = $this->_storeManager->getStore();
 
-        //$stores = $this->_storeManager->getStores();
         $storeLanguage = str_replace('_', '-', $store->getCode());
         $baseUrl = $store->getBaseUrl();
         $hreflangTags[] = [
